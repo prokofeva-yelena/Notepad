@@ -1,0 +1,88 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e9d1e9;
+}
+
+h1 {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+textarea {
+  border: 0px;
+  border-right: 1px solid black;
+  outline: 0px;
+  padding: 5px;
+  width: 50%;
+  height: 60vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.9em, rgba(255, 255, 255, 0)), color-stop(2em, rgba(0, 0, 0, 0.15))) 0 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 1.9em, rgba(0, 0, 0, 0.15) 2em) 0 0;
+  background-size: 2em 2em;
+  background-color: ivory;
+  font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.content {
+  -webkit-box-shadow: 0 0 1px #c2c0b8 inset, 0 5px 0 -4px white, 0 5px 0 -3px #c2c0b8, 0 11px 0 -8px white, 0 11px 0 -7px #c2c0b8, 0 17px 0 -12px white, 0 17px 0 -11px #c2c0b8;
+          box-shadow: 0 0 1px #c2c0b8 inset, 0 5px 0 -4px white, 0 5px 0 -3px #c2c0b8, 0 11px 0 -8px white, 0 11px 0 -7px #c2c0b8, 0 17px 0 -12px white, 0 17px 0 -11px #c2c0b8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.9em, rgba(255, 255, 255, 0)), color-stop(2em, rgba(0, 0, 0, 0.15))) 0 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 1.9em, rgba(0, 0, 0, 0.15) 2em) 0 0;
+  background-size: 2em 2em;
+  background-color: ivory;
+  font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+}
+
+ol {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.9em, rgba(255, 255, 255, 0)), color-stop(2em, rgba(0, 0, 0, 0.15))) 0 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 1.9em, rgba(0, 0, 0, 0.15) 2em) 0 0;
+  background-size: 2em 2em;
+  background-color: ivory;
+  font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+}
+
+li {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.9em, rgba(255, 255, 255, 0)), color-stop(2em, rgba(0, 0, 0, 0.15))) 0 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 1.9em, rgba(0, 0, 0, 0.15) 2em) 0 0;
+  background-size: 2em 2em;
+  background-color: ivory;
+  font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.9em, rgba(255, 255, 255, 0)), color-stop(2em, rgba(0, 0, 0, 0.15))) 0 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 1.9em, rgba(0, 0, 0, 0.15) 2em) 0 0;
+  background-size: 2em 2em;
+  background-color: ivory;
+  font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+}
+
+span {
+  padding-left: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.9em, rgba(255, 255, 255, 0)), color-stop(2em, rgba(0, 0, 0, 0.15))) 0 0;
+  background: linear-gradient(rgba(255, 255, 255, 0) 1.9em, rgba(0, 0, 0, 0.15) 2em) 0 0;
+  background-size: 2em 2em;
+  background-color: ivory;
+  font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
